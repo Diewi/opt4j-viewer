@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Opt4J Core
-Bundle-SymbolicName: org.opt4j.core;singleton:=true
+Bundle-Name: Opt4J Viewer
+Bundle-SymbolicName: org.opt4j.viewer;singleton:=true
 Bundle-Version: 2.11.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: fortiss GmbH
@@ -9,7 +9,8 @@ Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: org.opt4j.core.Opt4JCoreActivator
-Require-Bundle: org.eclipse.core.runtime;bundle-version="3.9.100";visibility:=reexport
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.9.100";visibility:=reexport,
+ org.opt4j.core;bundle-version="2.11.0";visibility:=reexport
 Export-Package: org.opt4j.common.archive;uses:="org.opt4j.core.common.archive,org.opt4j.core.problem,org.opt4j.core",
  org.opt4j.common.random;uses:="org.opt4j.core.common.random",
  org.opt4j.core,
