@@ -28,13 +28,13 @@ import org.osgi.framework.BundleContext;
  * @version $Rev: 5449 $
  * @ConQAT.Rating GREEN Hash: 26273ECC4487F5E09548132D2126639A
  */
-public class Opt4JTutorialActivator extends Plugin {
+public class Opt4JViewerActivator extends Plugin {
 
 	/** The plug-in ID. */
-	public static final String PLUGIN_ID = Opt4JTutorialActivator.class.getPackage().getName(); //$NON-NLS-1$
+	public static final String PLUGIN_ID = Opt4JViewerActivator.class.getPackage().getName(); //$NON-NLS-1$
 
 	/** The shared instance. */
-	private static Opt4JTutorialActivator plugin;
+	private static Opt4JViewerActivator plugin;
 
 	/** {@inheritDoc} */
 	@Override
@@ -51,7 +51,7 @@ public class Opt4JTutorialActivator extends Plugin {
 	}
 
 	/** Returns the shared instance. */
-	public static Opt4JTutorialActivator getDefault() {
+	public static Opt4JViewerActivator getDefault() {
 		return plugin;
 	}
 }
